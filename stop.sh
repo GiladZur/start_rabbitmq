@@ -1,4 +1,3 @@
 #!/bin/bash -eu
-docker kill rabbitmq
-docker rm rabbitmq
-
+docker rm -f my-rabbitmq
+docker ps -a
